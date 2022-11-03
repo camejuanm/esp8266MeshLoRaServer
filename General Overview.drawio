@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T09:26:07.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="y1ehQ8Uqt66y1JJQJetn" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T10:01:07.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="J39hXgvpxgyhHATv0h8L" version="20.5.1" type="github">
   <diagram id="2j9tihJcWGmogORtZLfm" name="Page-1">
-    <mxGraphModel dx="1065" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="FCE10W5ZX_m4McsUhyiG-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/computer-hardware-glyphs-vol-2/52/signal__device__technology__radar__satellite__antenna__tower-128.png;fillColor=none;rotation=30;" vertex="1" parent="1">
           <mxGeometry x="243.73" y="500" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="FCE10W5ZX_m4McsUhyiG-18" value="RFM95W&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-18" value="RFM95W&lt;br&gt;LoRa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="446.26" y="548" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FCE10W5ZX_m4McsUhyiG-20" value="RFM95W&lt;br&gt;LoRa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -40,8 +40,8 @@
         <mxCell id="3kGpmjO33P2lQRk3DPsD-5" value="Raspberry Pi 3 Model B" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="306.26" y="174" width="230" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="3kGpmjO33P2lQRk3DPsD-6" value="RFM95W&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="314" width="60" height="30" as="geometry" />
+        <mxCell id="3kGpmjO33P2lQRk3DPsD-6" value="RFM95W&lt;br&gt;LoRa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="320" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3kGpmjO33P2lQRk3DPsD-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/computer-hardware-glyphs-vol-2/52/signal__device__technology__radar__satellite__antenna__tower-128.png;fillColor=none;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="377.46" y="314" width="75.07" height="75.07" as="geometry" />
@@ -140,6 +140,42 @@
         </mxCell>
         <mxCell id="3kGpmjO33P2lQRk3DPsD-37" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Soil Humidity Sensor&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="163.73000000000005" y="410" width="56.27" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.033;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3kGpmjO33P2lQRk3DPsD-33" target="FCE10W5ZX_m4McsUhyiG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="610" as="sourcePoint" />
+            <mxPoint x="200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.033;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FCE10W5ZX_m4McsUhyiG-1" target="FCE10W5ZX_m4McsUhyiG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="700" as="sourcePoint" />
+            <mxPoint x="230" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3kGpmjO33P2lQRk3DPsD-33" target="FCE10W5ZX_m4McsUhyiG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="640" as="sourcePoint" />
+            <mxPoint x="120" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCE10W5ZX_m4McsUhyiG-13" target="3kGpmjO33P2lQRk3DPsD-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="720" as="sourcePoint" />
+            <mxPoint x="700" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.962;exitY=0.308;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FCE10W5ZX_m4McsUhyiG-13" target="3kGpmjO33P2lQRk3DPsD-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="640" as="sourcePoint" />
+            <mxPoint x="690" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCE10W5ZX_m4McsUhyiG-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3kGpmjO33P2lQRk3DPsD-28" target="3kGpmjO33P2lQRk3DPsD-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="640" as="sourcePoint" />
+            <mxPoint x="800" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
