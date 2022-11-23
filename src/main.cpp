@@ -16,6 +16,7 @@
 #define MESH_PREFIX "AlphaMesh"
 #define MESH_PASSWORD "MESHpassword"
 #define MESH_PORT 5555
+#define WIFI_CHANNEL 6 
 
 #define SCK 14
 #define MISO 12
@@ -69,7 +70,7 @@ void setup()
   }
   Serial.println("LoRa Initial OK!");
   mesh.setDebugMsgTypes(ERROR | CONNECTION | S_TIME);
-  mesh.init(MESH_PREFIX, MESH_PASSWORD, MESH_PORT, WIFI_AP_STA, 6, PHY_MODE_11G);
+  mesh.init(MESH_PREFIX, MESH_PASSWORD, MESH_PORT, WIFI_AP_STA, WIFI_CHANNEL, PHY_MODE_11G);
   mesh.onReceive(&receivedCallback);
   mesh.onNewConnection([](size_t nodeId)
                        { Serial.printf("New Connection %u\n", nodeId); });
